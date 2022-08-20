@@ -1,0 +1,295 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*
+ *
+ *
+      @ edit some antd style in global css
+ *
+ *
+ */
+
+.ant-pagination.ant-table-pagination.ant-table-pagination-right {
+  display: none !important;
+}
+
+.getPostCategories .ant-table-cell,
+.EmployeeTable .ant-table-cell {
+  text-align: center;
+}
+.ant-spin-dot-item,
+.ant-spin-text {
+  background-color: #5e72e4 !important;
+}
+
+.table-images {
+  border-radius: 50%;
+  border: 2px solid #e4e4e4;
+  padding: 4px !important;
+}
+.jodit-react-container {
+  width: 100% !important;
+}
+
+.treat-button,
+.treat-button:hover .treat-button:focus {
+  background-color: #5e72e4 !important;
+  width: 100px;
+  border: none;
+  color: #5e72e4 !important;
+  font-family: "Poppins";
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 5px;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+}
+.ant-pagination {
+  display: flex;
+  justify-content: flex-end;
+  background-color: white;
+  padding: 10px 10px !important;
+}
+
+.ant-pagination-prev .ant-pagination-item-link,
+.ant-pagination-next .ant-pagination-item-link {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  font-size: 11px;
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #5e72e4;
+  border-radius: 2px;
+  outline: none;
+  border-radius: 50% !important;
+  transition: all 0.3s;
+  -webkit-border-radius: 50% !important;
+  -moz-border-radius: 50% !important;
+  -ms-border-radius: 50% !important;
+  -o-border-radius: 50% !important;
+}
+.ant-pagination-item {
+  border-radius: 50% !important;
+  -webkit-border-radius: 50% !important;
+  -moz-border-radius: 50% !important;
+  -ms-border-radius: 50% !important;
+  -o-border-radius: 50% !important;
+  border-radius: 50%;
+  border: 1px solid #5e72e4 !important;
+  color: #5e72e4 !important;
+}
+
+.ant-pagination-item a {
+  display: block;
+  padding: 0 6px;
+  color: rgba(0, 0, 0, 0.85);
+  transition: none;
+  color: #5e72e4 !important;
+  font-weight: 500;
+  font-family: "Roboto";
+}
+.ant-pagination-next:hover .ant-pagination-item-link {
+  color: #5e72e4 !important;
+  border-color: #5e72e4;
+}
+
+.ant-pagination-item-active:hover a {
+  color: #8389da;
+}
+
+.ant-pagination-item-active {
+  background-color: #5e72e4 !important;
+  color: white !important;
+}
+.ant-pagination-item-active {
+  font-weight: 500;
+  border-color: #8389da !important;
+}
+
+.ant-pagination-item-active a {
+  border-color: #8389da !important;
+  color: white !important;
+}
+
+.ant-table-thead
+  > tr
+  > th:not(:last-child):not(.ant-table-selection-column):not(.ant-table-row-expand-icon-cell):not([colspan])::before {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 0px !important;
+  height: 1.6em;
+  background-color: rgba(0, 0, 0, 0.06);
+  transform: translateY(-50%);
+  transition: background-color 0.3s;
+  content: "";
+}
+
+.EmployeeTable {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  min-width: 100%;
+  overflow-x: auto !important;
+}
+
+.ant-input-group-addon {
+  display: none;
+}
+
+.ant-input-search .ant-input-group .ant-input-affix-wrapper:not(:last-child) {
+  border-radius: 8px !important;
+  height: 50px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  -webkit-border-radius: 8px !important;
+  -moz-border-radius: 8px !important;
+  -ms-border-radius: 8px !important;
+  -o-border-radius: 8px !important;
+  width: 250px !important;
+}
+
+.ant-input-group-addon {
+  display: none !important;
+}
+
+.ant-modal-content {
+  border-radius: 8px !important;
+  position: relative;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 0;
+  border-radius: 2px;
+  box-shadow: 0 3px 6px -4px rgb(0 0 0 / 12%), 0 6px 16px 0 rgb(0 0 0 / 8%),
+    0 9px 28px 8px rgb(0 0 0 / 5%);
+  pointer-events: auto;
+}
+
+.ant-modal-header {
+  padding: 16px 24px;
+  color: rgba(0, 0, 0, 0.85);
+  background: #b4b4b4d7 !important;
+  border-bottom: 1px solid #f0f0f0;
+  border-top-left-radius: 8px !important;
+  border-top-right-radius: 8px !important;
+  background-color: #8080803b;
+  display: flex;
+  justify-content: center;
+}
+
+.ant-modal-title {
+  color: white !important;
+  font-family: "Roboto";
+}
+
+.ant-modal-footer {
+  display: none;
+}
+.anticon.anticon-close.ant-modal-close-icon {
+  color: white;
+}
+.ant-form-item-required {
+  font-family: "Roboto" !important;
+}
+.ant-input,
+.ant-picker {
+  font-family: "Roboto" !important;
+  font-weight: 400 !important;
+  border: 1px solid #d4d2d2cb !important;
+  height: 45px !important;
+  color: #282c34 !important;
+  border-radius: 4px !important;
+  width: 100%;
+  -webkit-border-radius: 4px !important;
+  -moz-border-radius: 4px !important;
+  -ms-border-radius: 4px !important;
+  -o-border-radius: 4px !important;
+}
+.ant-modal-body {
+  padding: 16px 6px !important;
+}
+.ant-btn.ant-btn-default.ant-btn-icon-only.button-upload-image-partner {
+  height: 100px !important;
+  border: 1px dotted #d4d2d2cb !important;
+  border-radius: 8px !important;
+  -webkit-border-radius: 8px !important;
+  -moz-border-radius: 8px !important;
+  -ms-border-radius: 8px !important;
+  -o-border-radius: 8px !important;
+  width: 100% !important;
+}
+
+.anticon.anticon-plus {
+  color: #d4d2d2cb;
+}
+
+.ant-upload.ant-upload-select.ant-upload-select-picture {
+  width: 100% !important;
+}
+
+.ant-input-group {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  list-style: none;
+  font-feature-settings: "tnum", "tnum";
+  position: relative;
+  display: table;
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  display: flex !important;
+  justify-content: flex-end !important;
+  padding-right: 10px !important;
+}
+
+.ant-tooltip.ant-tooltip-placement-top {
+  display: none;
+}

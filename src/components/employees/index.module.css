@@ -1,0 +1,117 @@
+.employee {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #ffffff9d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  overflow: hidden;
+}
+.employeeContianer {
+  min-width: 100% !important;
+  height: 450px !important;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+.tablePhargraph {
+  margin-bottom: 0px;
+  text-align: center;
+  color: #525f7f !important;
+}
+
+.Pagination {
+  min-width: 800px;
+}
+
+.employeeHeader {
+  display: flex;
+  justify-content: space-between;
+  min-width: 800px;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.addEmployeeButton,
+.addEmployeeButton:hover,
+.addEmployeeButton:focus {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #8389da;
+  color: white;
+  font-weight: 590;
+  font-family: "Roboto";
+  border: 0px;
+  width: 175px;
+  height: 50px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+.plusIcon {
+  font-size: 16px;
+  color: white !important;
+  margin-bottom: 0px;
+}
+
+.employeeSearch {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.employeeContent {
+  margin-bottom: 0px;
+  font-family: "Roboto";
+  font-weight: 400;
+  color: #525f7f !important;
+}
+.employeeAddress{
+  font-family: "Roboto";
+  font-weight: 400;
+}
+.employeeName {
+  margin-bottom: 0px;
+  font-family: "Roboto";
+  font-weight: 400;
+  color: #18d3da !important;
+}
+
+.searchInput input {
+  width: 250px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border: none !important;
+}
+.employeeActions {
+  width: 100%;
+  justify-content: center;
+  gap: 20px;
+  cursor: pointer;
+}
+
+
+.eyeAction {
+  color: rgb(0, 183, 255);
+}
+
+.deleteAction {
+  color: rgb(240, 18, 74) !important;
+}
+
+.editAction {
+  color: rgb(31, 202, 103);
+}
